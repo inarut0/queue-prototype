@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Queue App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #1f1f1f, #2c2c2c);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      padding: 2rem;
+    }
+    .app-icon {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    p.tagline {
+      font-size: 1rem;
+      color: #bbb;
+      margin-bottom: 2rem;
+    }
+    .buttons {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+    .button {
+      background: #333;
+      color: #fff;
+      border: 1px solid #444;
+      padding: 0.75rem 1.5rem;
+      border-radius: 10px;
+      transition: 0.3s;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .button:hover {
+      background: #555;
+    }
+    .feedback {
+      margin-top: 2rem;
+    }
+    .feedback a {
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      background: #444;
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+    .feedback a:hover {
+      background: #666;
+    }
+    .note {
+      font-size: 0.9rem;
+      color: #888;
+      margin-top: 0.5rem;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="app-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" fill="white">
+      <circle cx="512" cy="512" r="500" fill="#4A90E2"/>
+      <text x="50%" y="58%" font-size="420" text-anchor="middle" fill="#fff" font-family="Arial" dy=".3em">Q</text>
+    </svg>
+  </div>
+
+  <h1>Queue</h1>
+  <p class="tagline">You’re Up Next! Please Stay Ready</p>
+
+  <div class="buttons">
+    <a href="https://play.google.com/store/apps/details?id=com.figma.mirror" class="button" target="_blank">Figma Android</a>
+    <a href="https://itunes.apple.com/app/figma-mirror/id1152747299" class="button" target="_blank">Figma iOS</a>
+    <a href="https://www.figma.com/proto/pAw2RQGHqFz3oLH7D6Y2WM/Que-App?page-id=0%3A1&node-id=103-11&viewport=340%2C482%2C0.2&t=ha9qwxuJjer4Ck1Y-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=103%3A11" class="button" target="_blank">Prototype Link</a>
+  </div>
+  <p class="note">Prototype password: <strong>401</strong></p>
+
+  <div class="feedback">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSf3KslF6CPrkdvX-1JggZXDbihpZdFcwtc-nsGs0rJgN7DvOw/viewform?usp=sharing" target="_blank">Submit Feedback</a>
+  </div>
+
+  <footer>
+    © 2025 Your Name | Built with ❤️ for portfolio testing
+  </footer>
+</body>
+</html>
